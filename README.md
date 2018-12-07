@@ -1,5 +1,7 @@
-# Juno Download Crawler
-
+# 音乐爬虫设计
+* 目前的设计思路
+** 将爬虫通过标签以及类别分类，然后通过网络进行分类，从而获得特征。
+** 听音识曲的关键，将数据音乐转化为频谱图像，然后分类。这个的本质是 时域数据与频域数据是相同的
 
 Crawls [Juno Download](http://www.junodownload.com "Juno Download") and collects data on the entire back catalogue of music singles.
 
